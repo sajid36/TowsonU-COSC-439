@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <unistd.h>
-
+#include <cstring>
 #include <string>
 
 static bool call_rpc(int fd, const char* name, long long a, long long b, long long& out) {
